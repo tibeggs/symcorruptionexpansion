@@ -4,7 +4,7 @@
     "description": "A custom module to modify symb5e's _corruptionFunction.",
     "version": "1.0.0",
     "url": "",
-    "download": "",
+    "download": "https://github.com/tibeggs/symcorruptionexpansion/releases/latest/download/module.zip",
     "author": "timhaha",
     "scripts": [
       "your-custom-script.js"
@@ -14,7 +14,7 @@
     "packs": [],
     "module": "your-custom-module.js",
     "packerVersion": 14,
-    "manifest": "",
+    "manifest": "https://github.com/tibeggs/symcorruptionexpansion/releases/latest/download/module.json",
     "dependencies": [
       {
         "name": "Ruins of Symbaroum 5E - Core",
