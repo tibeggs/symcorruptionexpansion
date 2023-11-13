@@ -1,0 +1,17 @@
+{
+    "id": "ros-cor-exp",
+    "title": "Ruins of  Symbaroum Corruption Expansion",
+    "description": "Allow formula injection into  the  corruption system",
+    "authors": [
+      {
+      "name": "timhaha"
+      }
+    ],
+    "version": "0.1.0",
+    "compatibility": {
+      "minimum": "10"
+    },
+    "scripts": [
+        "scripts/spellhook.js"
+      ]
+  }
