@@ -1,0 +1,25 @@
+{
+    "name": "symcorexp",
+    "title": "Custom Module for symb5e",
+    "description": "A custom module to modify symb5e's _corruptionFunction.",
+    "version": "1.0.0",
+    "url": "",
+    "download": "",
+    "author": "timhaha",
+    "scripts": [
+      "your-custom-script.js"
+    ],
+    "esmodules": [],
+    "styles": [],
+    "packs": [],
+    "module": "your-custom-module.js",
+    "packerVersion": 14,
+    "manifest": "",
+    "dependencies": [
+      {
+        "name": "Ruins of Symbaroum 5E - Core",
+        "manifest": "https://github.com/FLPub/symbaroum5ecore/releases/latest/download/module.json",
+        "module": "symbaroum5ecore"
+      }
+    ]
+  }

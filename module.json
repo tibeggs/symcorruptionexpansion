@@ -1,17 +1,35 @@
 {
-    "id": "ros-cor-exp",
-    "title": "Ruins of  Symbaroum Corruption Expansion",
-    "description": "Allow formula injection into  the  corruption system",
+    "title": "symcorexp",
+    "description": "Custom Module for symb5e",
+    "version": "0.5.0",
+    "esmodules": [],
+    "url": "",
+    "manifest": "",
+    "download": "",
     "authors": [
       {
-      "name": "timhaha"
+        "name": "Timhaha",
+        "flags": {}
       }
     ],
-    "version": "0.1.0",
     "compatibility": {
-      "minimum": "10"
+      "minimum": "10",
+      "verified": "10",
+      "maximum": "10"
     },
-    "scripts": [
-        "scripts/spellhook.js"
+    "relationships": {
+      "systems": [
+        {
+          "id": "symbaroum5ecore",
+          "type": "module",
+          "compatibility": {
+            "minimum": "2.1.0",
+            "verified": "2.1.0",
+            "maximum": "2.1.0"
+          }
+        }
       ]
+    },
+    "id": "symcorexp",
+    "minimumCoreVersion": "10"
   }
